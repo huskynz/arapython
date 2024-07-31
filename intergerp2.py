@@ -11,7 +11,7 @@ user_number_2 = int(input("Please enter the second integer: "))
 
 #do our opration
 numbers_division = user_number / user_number_2
-numbers_remainder = user_number - (user_number_2 * numbers_division)
+numbers_remainder = user_number % user_number_2
 
 
 #we print our result
