@@ -4,7 +4,7 @@
 # Ask our user there name
 user_first_name = input("Please enter your first name: ")
 
-# set our upper and lower 
+# set our upper and lower
 user_first_name_upper = user_first_name.upper()
 user_first_name_lower = user_first_name.lower()
 user_first_name_intro = user_first_name.lower().capitalize()

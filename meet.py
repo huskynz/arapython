@@ -14,7 +14,7 @@ start_time_hour_to_minutes = meeting_start_hour_time * 60 + meeting_start_minute
 start_time_with_duration = start_time_hour_to_minutes + meeting_run_time
 start_time_with_duration_hours = int(start_time_with_duration / 60)
 start_time_with_duration_minutes = int(start_time_with_duration % 60)
- 
+
 
 # Print our output
 print(f"\nThe meeting will start at {meeting_start_hour_time:0>2d}:{meeting_start_minute_time:0>2d}")
